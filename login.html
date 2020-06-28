@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body {
+   		 background: burlywood;
+		}
+	    .form {
+         width: 300px;
+         height: 350px;
+         border: 1px solid;
+         margin-top: 100px;
+         margin-left: 530px;
+         border-radius: 30px;
+         background: aliceblue;
+		}
+		h2 {
+         color: brown;
+         text-align: center;
+         margin-top: 30px;
+         font-family: cursive;
+        }
+        section.form1 {
+    	margin-top: 30px;
+		}
+        .form1 label {
+    		color: brown;
+    		font-size: large;
+    		margin-left: 30px;
+   			 /* margin-top: 30px; */
+		}
+		.form1 input {
+    	margin-left: 30px;
+    	width: 240px;
+    	border-radius: 10px;
+    	height: 20px;
+    	margin-top: 15px;
+		}
+		section.form2 {
+   		 margin-top: 15px;
+		}
+		.form2 label {
+    		color: brown;
+    		font-size: large;
+    		margin-left: 30px;
+   			 /* margin-top: 30px; */
+		}
+		.form2 input {
+    	margin-left: 30px;
+    	width: 240px;
+    	border-radius: 10px;
+    	height: 20px;
+    	margin-top: 15px;
+		}
+		section.form3 {
+    	text-align: center;
+    	margin-top: 20px;
+		}
+		.form3 input {
+   		 font-size: 15px;
+    	padding: 3px;
+    	width: 60px;
+    	border-radius: 10px;
+    	font-family: cursive;
+    	color: darkorchid;
+		}
+		.form4 input {
+   		 font-size: 15px;
+    	padding: 3px;
+    	width: 100px;
+    	border-radius: 10px;
+    	font-family: cursive;
+    	color: darkorchid;
+		}
+		section.form4 {
+    	text-align: center;
+    	margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="form">
+		
+		<h2>Login</h2>
+		<section class="form1">
+			<label for="username">Username</label>
+			<br>
+			<input id="username" type="text" name="username" minlength="10" maxlength="30" required>
+		</section>
+		<section class="form2">
+			<label for="pw">Password</label>
+			<br>
+			<input type="text" name="password" id="form2" minlength="10" maxlength="30" required >
+		</section>
+		<section class="form3">
+			<input type="submit" name="submit" value="Login">
+		</section>
+		<section class="form4">
+			<input type="submit" name="registration" value="Registration">
+		</section>
+	</div>
+</body>
+</html>
